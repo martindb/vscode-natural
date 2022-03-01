@@ -1,0 +1,14 @@
+{
+  "decide on value": {
+    "prefix": "decid",
+    "body": "DECIDE ON ${1:FIRST }VALUE OF ${2:var}\n  VALUE $3\n    $4\n  NONE\n    ${5:IGNORE}\nEND-DECIDE$0"
+  },
+  "if... else...": {
+    "prefix": "ifelse",
+    "body": "IF ${1:condition} THEN\n  $2\nELSE\n  $3\nEND-IF$0"
+  },
+  "sub": {
+    "prefix": "sub",
+    "body": "DEFINE SUBROUTINE ${1:name}\n    $2\nEND-SUBROUTINE$0"
+  }
+}

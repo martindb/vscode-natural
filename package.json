@@ -1,0 +1,68 @@
+{
+    "name": "natural",
+    "displayName": "Natural",
+    "description": "Extension for SoftwareAG Natural",
+    "author": "MartinDB",
+    "publisher": "martindb",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.64.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "license": "MIT License",
+    "bugs": {
+        "url": "https://github.com/martindb/vscode-natural/issues",
+        "email": "martindb@gmail.com"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/martindb/vscode-natural.git"
+    },
+    "homepage": "https://github.com/martindb/vscode-natural/README.md",
+    "private": true,
+    "contributes": {
+        "languages": [
+            {
+                "id": "natural",
+                "aliases": [
+                    "Natural",
+                    "natural"
+                ],
+                "extensions": [
+                    ".NS?"
+                ],
+                "configuration": "./language-configuration.json"
+            }
+        ],
+        "grammars": [
+            {
+                "language": "natural",
+                "scopeName": "source.natural",
+                "path": "./syntaxes/natural.tmLanguage.json"
+            }
+        ],
+        "snippets": [
+            {
+                "language": "natural",
+                "path": "./snippets/snippets.json"
+            }
+        ]
+    },
+    "release": {
+        "branches": "master",
+        "verifyConditions": [
+            "@semantic-release/github"
+        ],
+        "publish": [
+            "@semantic-release/github"
+        ],
+        "success": [
+            "@semantic-release/github"
+        ],
+        "fail": [
+            "@semantic-release/github"
+        ]
+    }
+}
