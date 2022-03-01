@@ -64,5 +64,8 @@
         "fail": [
             "@semantic-release/github"
         ]
+    },
+    "scripts": {
+        "test": ""
     }
 }
