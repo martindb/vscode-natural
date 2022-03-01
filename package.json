@@ -27,9 +27,6 @@
     },
     "homepage": "https://github.com/martindb/vscode-natural/blob/main/README.md",
     "private": true,
-    "activationEvents": [
-        "onLanguage:natural"
-    ],
     "contributes": {
         "languages": [
             {
