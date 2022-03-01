@@ -2,6 +2,11 @@
 Visual Studio Code extension for SoftwareAG Natural language
 
 
+Develop
+-------
+Commit messages format
+https://github.com/angular/angular.js/blob/master/DEVELOPERS.md#-git-commit-guidelines
+
 
 License
 -------
