@@ -1,6 +1,13 @@
 # vscode-natural
-Visual Studio Code extension for SoftwareAG Natural language
+Visual Studio Code extension for SoftwareAG Natural language.
+Curently this extension only support a few snippets and code syntax coloring.
 
+
+Natural
+-------
+[Software AG Natural](https://www.softwareag.com/en_corporate/platform/adabas-natural.html) is a [fourth-generation programming language](https://en.wikipedia.org/wiki/Fourth-generation_programming_language).
+
+The name Software AG and all Software AG product names are either trademarks or registered trademarks of Software AG and/or its subsidiaries and/or its affiliates and/or their licensors. Other company and product names mentioned herein may be trademarks of their respective owners.
 
 Develop
 -------
