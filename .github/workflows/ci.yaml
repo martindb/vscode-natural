@@ -33,15 +33,15 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v1
         with:
-          node-version: 12
+          node-version: 16
       - name: Install dependencies
-        run: npm install --unsafe-perm
+        run: npm install
       - name: Release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: npx semantic-release
       - name: Vscode release plugin
-        uses: JCofman/vscodeaction@master
+        uses: martindb/vscodeaction@master
         env:
           PUBLISHER_TOKEN: ${{ secrets.PUBLISHER_TOKEN }}
         with:
