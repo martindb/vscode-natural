@@ -36,7 +36,8 @@
                     "natural"
                 ],
                 "extensions": [
-                    ".NS?"
+                    ".NS?",
+                    ".idl"
                 ],
                 "configuration": "./language-configuration.json"
             }
