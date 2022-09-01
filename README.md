@@ -2,6 +2,10 @@
 Visual Studio Code extension for SoftwareAG Natural language.
 Curently this extension only support a few snippets and code syntax coloring.
 
+Instructions
+------------
+
+After installing the extension, go to the VSCode settings, search for "files associations", and associate the "*.NS*" item to the "natural" value.
 
 Natural
 -------
